@@ -1,15 +1,13 @@
 {
   "name": "startnow-react200-budget-tracker",
   "version": "1.0.0",
-  "description": "React/Redux Budget Tracker",
-  "main": "server/index.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "start": "parcel public/index.html --open",
     "build": "npx parcel build public/index.html --no-source-maps",
     "test": "mocha test/*.spec.js --exit"
   },
-  "description": "",
-  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -36,6 +34,8 @@
     "parcel-bundler": "^1.12.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-redux": "^7.2.5",
+    "redux": "^4.1.1",
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
